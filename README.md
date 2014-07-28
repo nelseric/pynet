@@ -1,5 +1,7 @@
-# Dependencies
+# PyNet
+## Dependencies
 * Virtualenv
 * Celery
-## Ubuntu Packes
+
+### Ubuntu Packages
 * sudo apt-get build-dep python-pygame
