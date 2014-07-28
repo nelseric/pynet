@@ -1,13 +1,17 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(
     name='pynet',
-    version='',
-    packages=['pynet'],
+    version='0.0.1',
+    packages = find_packages(),
     url='',
     license='',
     author='Eric Nelson',
     author_email='gauntletguy2@gmail.com',
     description='',
-    scripts=['bin/pynet.py']
+    entry_points = {
+      'console_scripts': [
+        'pynet = pynet.pn_main:main',
+      ]
+    }
 )
