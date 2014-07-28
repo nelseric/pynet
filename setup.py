@@ -11,7 +11,7 @@ setup(
     description='',
     entry_points = {
       'console_scripts': [
-        'pynet = pynet.pn_main:main',
+        'pynet = pynet.main:main',
       ]
     }
 )
